@@ -16,11 +16,6 @@ void main() {
 		cout << "Вы ввели не четырехзначное число. \n";
 	}
 	else {
-		/*num_1 = number / 100;
-		num_2 = number - (number/100)*100;
-
-		tmp = ((num_2-(num_2/10)*10)) *10 +num_2/10; */
-
 		cout << "Вы ввели число=" << number << "\n";		
 		num_1 = number / 100;
 		num_2 = number - (number / 100) * 100;
@@ -30,8 +25,5 @@ void main() {
 		cout << "Делаем обмен: \n num_1=" << num_1 << "; num_2=" << num_2 << "; \n";
 		number = num_1 * 100 + num_2;
 		cout << "Получаем =" << number << "\n";
-		//cout << "num_1 =" << num_1 << " \n";
-		//cout << "num_2=" << num_2 << "\n";
-		//cout << "tmp = " << tmp << "\n";
 	}
 }
