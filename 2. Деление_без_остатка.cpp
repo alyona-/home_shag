@@ -16,10 +16,7 @@ void main(){
 		cout << "Попробуйте ещё раз. \n";
 		goto start;
 	}
-	else {
-		num_1 = number;
-		num_2 = num_1;
-	}
+	else num_1 = num_2= number;
 
 	while (num_2 != 0){
 		if (0 == num_1%num_2){
