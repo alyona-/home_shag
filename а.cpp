@@ -1,4 +1,4 @@
-/*¿*/
+/*–ê*/
 #include  <iostream>
 
 
@@ -7,7 +7,7 @@ using namespace std;
 void main() {
 	setlocale(LC_ALL, "russian");
 	int x;
-	cout << "¬‚Â‰ËÚÂ ÒÚÓÓÌÛ Í‚‡‰‡Ú‡: \n";
+	cout << "–í–≤–µ–¥–∏—Ç–µ —Å—Ç–æ—Ä–æ–Ω—É –∫–≤–∞–¥—Ä–∞—Ç–∞: \n";
 	cin >> x;
 	for (int i = 1; i <= x; i++){
 
